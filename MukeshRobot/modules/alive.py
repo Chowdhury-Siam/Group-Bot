@@ -10,17 +10,23 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://telegra.ph/file/5a2d04b5cbeadd6b29382.jpg",
+    "https://telegra.ph/file/ae5b2110f903d7ced0824.jpg",
+    "https://telegra.ph/file/b155d15a3659965341504.jpg",
+    "https://telegra.ph/file/34c8214e62ca8f32315ee.jpg",
+    "https://telegra.ph/file/ab9bd53ea13fcd95aedfe.jpg",
+    "https://telegra.ph/file/2fa62c347c347697b4611.jpg",
+    "https://telegra.ph/file/1188cb5602f7c999803f3.jpg",
+    "https://telegra.ph/file/728d6a430d2fb015e15e0.jpg",
+    "https://telegra.ph/file/71fa7b5f27b50e1dca238.jpg",
+    "https://telegra.ph/file/91dc1712cff07cec67c18.jpg",
+    "https://telegra.ph/file/dfea307e626cea341f8ae.jpg",
 ]
 
 Mukesh = [
     [
         InlineKeyboardButton(text="ɴᴏᴏʙ", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Anime_Kun_Channel"),
     ],
     [
         InlineKeyboardButton(
