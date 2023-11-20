@@ -969,9 +969,6 @@ def main():
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_", run_async=True
     )
-    music_callback_handler = CallbackQueryHandler(
-        Music_about_callback, pattern=r"Music_",run_async=True
-    )
     mukeshrobot_main_handler = CallbackQueryHandler(
         MukeshRobot_Main_Callback, pattern=r".*_help",run_async=True)
     donate_handler = CommandHandler("donate", donate)
@@ -979,7 +976,6 @@ def main():
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(about_callback_handler)
-    dispatcher.add_handler(music_callback_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
